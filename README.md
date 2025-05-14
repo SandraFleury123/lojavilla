@@ -102,3 +102,44 @@
   </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Villa Papel - Presentes com Alma</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <header>
+    <h1>Villa Papel</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="carrinho.html">Carrinho</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Presentes com alma, artesanalmente criados para tocar corações</h2>
+    <p>Tudo o que é feito com alma, permanece no coração de quem recebe.</p>
+    <a href="produtos.html" class="btn">Explorar Produtos</a>
+  </section>
+
+  <section class="sobre">
+    <h3>Sobre a Villa Papel</h3>
+    <p>A Villa Papel nasceu em 2015 pelas mãos e coração de Sandrinha Fleury, unindo delicadeza, criatividade e afeto em presentes únicos e personalizados. Nossa missão é emocionar por meio de cada detalhe.</p>
+  </section>
+
+  <footer id="contato">
+    <p>Entre em contato: <a href="https://wa.me/5562991000090" target="_blank">WhatsApp (62) 99100-0090</a></p>
+    <p>&copy; 2025 Villa Papel - Todos os direitos reservados.</p>
+  </footer>
+</body>
+
+</html>

@@ -54,3 +54,51 @@
   </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Villa Papel - Produtos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Villa Papel</div>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="carrinho.html">Carrinho</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="produtos-container">
+    <h1>Nossos Produtos</h1>
+    <div class="produtos-grid">
+      <div class="produto">
+        <img src="produto1.jpg" alt="Caneca Personalizada">
+        <h2>Caneca Amor de Mãe</h2>
+        <p>Caneca com frase personalizada para presentear com carinho.</p>
+        <span class="preco">R$ 39,90</span>
+        <a href="produto.html">Ver mais</a>
+      </div>
+
+      <div class="produto">
+        <img src="produto2.jpg" alt="Diário de Vida">
+        <h2>Diário de Vida</h2>
+        <p>Livro artesanal para registrar memórias inesquecíveis.</p>
+        <span class="preco">R$ 69,90</span>
+        <a href="produto.html">Ver mais</a>
+      </div>
+
+      <!-- Adicione mais produtos conforme necessário -->
+    </div>
+  </main>
+
+  <footer>
+    <p>Villa Papel © 2025 · Criado por Sandrinha Fleury</p>
+  </footer>
+</body>
+</html>

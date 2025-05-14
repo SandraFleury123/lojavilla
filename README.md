@@ -100,15 +100,13 @@
   <footer>
     <p>Villa Papel © 2025 · Criado por Sandrinha Fleury</p>
   </footer>
-</body>
-</html>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Villa Papel - Presentes com Alma</title>
+  <title>Carrinho - Villa Papel</title>
   <link rel="stylesheet" href="estilo.css">
 </head>
 
@@ -125,16 +123,31 @@
     </nav>
   </header>
 
-  <section class="hero">
-    <h2>Presentes com alma, artesanalmente criados para tocar corações</h2>
-    <p>Tudo o que é feito com alma, permanece no coração de quem recebe.</p>
-    <a href="produtos.html" class="btn">Explorar Produtos</a>
-  </section>
-
-  <section class="sobre">
-    <h3>Sobre a Villa Papel</h3>
-    <p>A Villa Papel nasceu em 2015 pelas mãos e coração de Sandrinha Fleury, unindo delicadeza, criatividade e afeto em presentes únicos e personalizados. Nossa missão é emocionar por meio de cada detalhe.</p>
-  </section>
+  <main class="carrinho">
+    <h2>Seu Carrinho</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Quantidade</th>
+          <th>Preço</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Exemplo de Produto</td>
+          <td>1</td>
+          <td>R$ 59,90</td>
+          <td>R$ 59,90</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="resumo-carrinho">
+      <p>Total: <strong>R$ 59,90</strong></p>
+      <a href="#" class="btn">Finalizar Compra</a>
+    </div>
+  </main>
 
   <footer id="contato">
     <p>Entre em contato: <a href="https://wa.me/5562991000090" target="_blank">WhatsApp (62) 99100-0090</a></p>

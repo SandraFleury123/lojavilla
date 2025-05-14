@@ -1,1 +1,56 @@
-# lojavilla
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Villa Papel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Villa Papel</h1>
+      <nav>
+        <a href="index.html">Início</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="carrinho.html">Carrinho</a>
+        <a href="https://wa.me/5562991000090" target="_blank">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>"Tudo o que é feito com alma permanece no coração de quem recebe."</h2>
+      <a href="produtos.html" class="btn">Explorar a loja</a>
+    </div>
+  </section>
+
+  <section class="destaques">
+    <div class="container">
+      <h3>Destaques</h3>
+      <div class="produtos">
+        <div class="produto">
+          <img src="img/diario-vida.jpg" alt="Diário de Vida" />
+          <h4>Diário de Vida</h4>
+          <p>R$ 89,90</p>
+          <a href="produto.html" class="btn">Ver mais</a>
+        </div>
+        <div class="produto">
+          <img src="img/caneca-mae.jpg" alt="Caneca Dia das Mães" />
+          <h4>Caneca "Te Amo Mamãe"</h4>
+          <p>R$ 39,90</p>
+          <a href="produto.html" class="btn">Ver mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Villa Papel © 2015 - Criado por Sandrinha Fleury</p>
+      <p><a href="https://wa.me/5562991000090">Fale conosco no WhatsApp</a></p>
+    </div>
+  </footer>
+</body>
+</html>
